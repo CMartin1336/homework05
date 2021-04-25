@@ -1,7 +1,7 @@
 // Variable to add todays date
 var currentDay = $('#currentDay');
 var saveBtn = $('#button-addon1');
-var entry = $("#entry").val();
+// var entry = $("#entry").val();
 
 // Function to set date on page load
 $(document).ready(function() {
@@ -10,7 +10,8 @@ $(document).ready(function() {
 
 // Functions Needed
 saveBtn.on("click", function() {
-    // localStorage.setContent(input.value);
-    console.log(entry);
+    var entry = $("#entry").val();
     localStorage.setItem("entryContent", JSON.stringify(entry));
 });
+
+var getEntry = localStorage.getItem("entryContent");
