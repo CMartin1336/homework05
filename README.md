@@ -11,7 +11,10 @@ Create a workday scheduler for the hours of the day
 4. Git Push
 5. Add in bootstrap form
 6. Add jquery to save button to add stuff to local storage
-7. 
+7. Work to get local storage setItems to work
+8. Work with AskBCS to get localStorage setItems and getItems working
+9. Struggle my tail off with multiple inputs
+10. See what happens next lol
 
 ## Live Project
 https://cmartin1336.github.io/homework05/
