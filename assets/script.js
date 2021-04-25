@@ -11,5 +11,5 @@ $(document).ready(function() {
 // Functions Needed
 saveBtn.on("click", function() {
     var entry = $("#entry").val();
-    localStorage.setItem("entryContent", JSON.stringify(entry));
+    localStorage.setItem("entryContent", entry);
 });
